@@ -1,6 +1,12 @@
 name: Deploy CF
 
-on: [push]
+on:
+  push:
+    branches:
+    - blue
+  pull_request:
+    branches:
+    - blue
 
 jobs:
   deploy:
