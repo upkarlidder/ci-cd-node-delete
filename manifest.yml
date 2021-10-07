@@ -1,0 +1,11 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: cicdnodedelete
+  buildpack: nodejs_buildpack
+  command: npm start
+  random-route: true
+  memory: 64M
+  env:
+    OPTIMIZE_MEMORY: true
