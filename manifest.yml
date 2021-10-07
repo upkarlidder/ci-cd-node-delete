@@ -2,10 +2,10 @@
 applications:
 - instances: 1
   timeout: 180
-  name: cicdnodedelete
+  name: ((name))
   buildpack: nodejs_buildpack
   command: npm start
   random-route: true
-  memory: 64M
+  memory: ((memory))
   env:
     OPTIMIZE_MEMORY: true

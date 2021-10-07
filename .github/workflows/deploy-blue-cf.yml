@@ -15,3 +15,4 @@ jobs:
           IBM_CLOUD_CF_API: ${{ secrets.IBM_CLOUD_CF_API }}
           IBM_CLOUD_CF_ORG: ${{ secrets.IBM_CLOUD_CF_ORG }}
           IBM_CLOUD_CF_SPACE: ${{ secrets.IBM_CLOUD_CF_SPACE }}
+          APP_VARS_FILE: ${{ secrets.APP_VARS_FILE }}
